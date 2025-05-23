@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/notyf/notyf.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/notyf/notyf.min.js"></script>
+  </head>
+  <body>
+    <h1>TODO LIST</h1>
+    <form>
+      <input
+        maxlength="10"
+        class="input-text"
+        required
+        placeholder="Search note..."
+        type="text"
+      />
+      <i id="search-icon" class="fas fa-search"></i>
+      <button class="send-button">Send</button>
+      <i id="moon" class="far fa-moon"></i>
+      <div class="sun">
+        <img
+          class="img5"
+          src="https://cdn3.iconfinder.com/data/icons/meteocons/512/sun-symbol-512.png"
+          alt=""
+        />
+      </div>
+    </form>
+    <div class="div5">
+      <input required id="searchInput" placeholder="Qidirish..." />
+      <select id="sortSelect">
+        <option value="a-z">A-Z</option>
+        <option value="z-a">Z-A</option>
+      </select>
+    </div>
+
+    <div class="wrapper">
+      <ul></ul>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
